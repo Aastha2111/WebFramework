@@ -1,0 +1,386 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    
+}
+html { overflow-y: scroll; overflow-x:hidden; }
+.blink{
+  animation:blinking 1s infinite;
+    }
+@keyframes blinking{
+   0%{   color: orange;  }
+   50%{   color: transparent; }
+   100%{   color: orange; }
+   }
+
+
+#One{
+    height: 80vh;
+    
+}
+.my-nav{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.my-carousel{
+    /* position: absolute; */
+    top: 0px;
+    
+}
+.nav-rowone{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    margin-left: 200px;
+    padding: 5px;
+    padding-top: 20px;
+}
+.nav-rowone a{
+  color: #fff;
+}
+.nav-rowone div{
+  margin: 3px;
+}
+.material-icons.orange60 { color: #FB8C00; }
+.material-icons.whitephn{color: white;}
+.btn-primary{
+    background: #FB8C00;
+    border-radius: 15px;
+}
+.search-bar{
+    border-radius: 15px;
+}
+.nav-text{
+    font-weight: 200;
+    color: white;
+}
+.All-dropdown{
+    background-color: gray;
+    width: 80vw;
+    height: 12vh;
+    border: 2px solid black;
+    margin-left: 12vh;
+    padding: auto;
+    display: inline-flex;
+
+    
+}
+.dropdowns{
+    margin-top: 15px;
+    width: 320px;
+    margin-right: 30px;
+    font-size: 1.6rem!important;
+    border: none;
+    background: 0 0;
+    color: #ffff;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    padding: 0!important;
+}
+.styleContent{
+    margin-bottom: 8px; 
+    font-weight: 450;
+    
+}
+#three{
+  background-image: url("https://www.companycsr.com/wp-content/uploads/2016/12/nothcap-anual2.jpg");
+}
+
+#three .iconcards{
+   background-color: rgba(141, 51, 44, 0.7);
+   display: inline-flex;
+   flex-direction: column;
+   opacity: 1;
+   
+}
+#three .iconcard{
+   text-align: center;
+   padding: 3px;
+   margin: 9px;
+   transition:transform 0.5s;
+   transform:scale(1,1);
+   
+}
+#three .iconcard:hover{
+  transform:scale(1.1,1.1);
+  }
+/* #three .iconcard img{
+   background-color: black;
+   opacity: 0.3;
+} */
+.Our-Schools .card{
+  background-color: orange;
+  padding: 5px;
+  margin: 3px; 
+  transition:transform 0.5s;
+  transform:scale(1,1);
+
+}
+.Our-Schools .card:hover{
+  transform:scale(1.1,1.1);
+  }
+
+
+.transitionEffect{
+  transition:transform 0.1s;
+  transform:scale(1,1);
+}
+.transitionEffect:hover{
+  transform:scale(1.05,1.05);
+  }
+
+#four .cont-animation{
+    height: 500px;
+    width: 100vw;
+    border: 7px solid #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+.slider1,.slider2,.slider3,.slider4{
+  position: absolute;
+  margin: 20px 90px 20px 30px ;
+  
+}
+
+.slider1{
+  animation: slide1 14s linear infinite;
+}
+.slider2{
+  animation: slide2 14s linear infinite;
+}
+.slider3{
+  animation: slide3 14s linear infinite;
+}
+.slider4{
+  animation: slide4 14s linear infinite;
+}
+@keyframes slide1 {
+  0%{
+
+    opacity: 1;
+    }
+  25%{
+      opacity: 0;
+    } 
+  75%{
+      opacity: 0;
+    } 
+  100%{
+      opacity: 0;
+}
+}
+@keyframes slide2 {
+
+  0%{
+
+    opacity: 0;
+    }
+  25%{
+      opacity: 1;
+    } 
+  75%{
+      opacity: 0;
+    } 
+  100%{
+      opacity: 0;
+  }
+  }        
+@keyframes slide3 {
+  0%{
+
+    opacity: 0;
+    }
+  25%{
+      opacity: 0;
+    } 
+  75%{
+      opacity: 1;
+    } 
+  100%{
+      opacity: 0;
+}
+}
+         
+@keyframes slide4 {
+  0%{
+
+    opacity: 0;
+    }
+  25%{
+      opacity: 0;
+    } 
+  75%{
+      opacity: 0;
+    } 
+  100%{
+      opacity: 1;
+}
+}
+
+/* .image-box{
+  display: flex;
+ 
+  justify-content: space-between;
+  
+}
+.collectimage{
+  display: flex;
+  flex-wrap: wrap;
+}
+.image-box{
+  animation: imgBox 10s linear infinite;
+}
+@keyframes imgBox{
+  0%{
+    margin-left: 0;
+  }
+  100%{
+    margin-left: -300%;
+  }
+} */
+
+
+.stickyaudio{
+  margin: 3px;
+  display: inline-flex;
+  position: fixed;
+  bottom: 90px;
+  right: 15px;
+  width: 250px;
+}
+
+.chatbox{
+  background-color:pink;
+  filter: drop-shadow(10px 10px 5px rgba(154, 158, 160, 0.9));
+  border-radius: 2px;
+  height: 70px;
+  width: 250px;
+  padding: auto;
+  margin: 3px;
+  display: inline-flex;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+
+}
+.stick-tags{
+    
+    transition: all ease-in-out .2s;
+    position: fixed;
+    bottom: 60vh;
+    right: -50px;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 25px 10px 20px;
+    line-height: normal;
+    transform: rotate(90deg);
+}
+.stick-tags2{
+    
+  transition: all ease-in-out .2s;
+  position: fixed;
+  bottom: 40vh;
+  right: -60px;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 25px 10px 20px;
+  line-height: normal;
+  transform: rotate(90deg);
+}
+
+#subscribeForm{
+  background-image: url("https://th.bing.com/th/id/R.07b33d9d0d5396969ed39ec0f673bf71?rik=72gmhJYrvNMPgw&riu=http%3a%2f%2fi0.wp.com%2fedufever.com%2fwp-content%2fuploads%2f2017%2f05%2fthe-northcap-university.jpg&ehk=v105uas5WMTRuQoIXC%2fgOYahCRXClVINIWczMoHotUQ%3d&risl=&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  background-size: 100vw 50vh ;
+  height: 50vh;
+  width: 100vw;
+ 
+}
+.form-box {
+	background-color: rgba(0, 0, 0, 0.541);
+	padding: 40px;
+ 	border-radius: 5px;
+	width: 500px;
+	height: 350px;
+  position: absolute;       /*position parent ke according*/
+  margin: 15px 500px 15px 500px;
+}
+
+.inputs{
+  
+  padding: 20px;
+  padding-left: 0px;
+}
+
+
+footer{
+    background-color: orange;
+    padding: 15px;
+}
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    /* margin: 5px 2px; */
+    /* border-radius: 20px; */
+    /* background-color: white; */
+    color: black;
+
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style-type: none;
+  }
+  ul li {
+    padding: 3px 0;   
+    
+  }
+  a{text-decoration: none;
+    font-weight: bold;
+    color: black;}
+ 
+  ul li a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-family: "Lato";
+    font-size: 1rem;
+    color: #3c494d;
+    text-transform: uppercase;
+    padding: 2px 0;
+    transition: 0.5s;
+  }
+  ul li a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    top: 100%;
+    left: 0;
+    background: #ff7000;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  ul li a:hover {
+    color: #95a5a6;
+  }
+  ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }

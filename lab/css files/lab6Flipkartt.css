@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* color: wheat; */
+}
+body{
+    background-color:#dfeafd;
+}
+.sublink{
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+}
+.PlusLink{
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+}
+header{
+    height: 58px;
+    background-color:#2874f0;
+    /* border: 2px solid red; */
+    display: flex;
+    padding-left: 200px;
+
+   }
+nav ul li a{
+    padding: 23px;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.login
+{
+    display: flex;
+    background-color: white;
+    height: 30px;
+    width: 80px;
+    /* background-color:; */
+    color:#2874f0 ;
+    padding: 3px;
+}
+
+.container{
+ display: inline-flex;
+}
+.carditem{
+    padding-top: 4px;
+    padding-right: 16px;
+    margin: 9px;
+    /* border: 2px solid #f0f0f0; */
+}
+.carditem:hover {
+    transform: translateY(15px) scale(1.05);
+  }
+#banner {
+
+    position: relative;
+
+    min-height: 690px;
+
+    overflow: hidden;
+
+}
+
+#banner img {
+
+    width: 100%;
+
+}
+#slider {
+    width: 400px;
+    padding: auto;
+    display: inline-block;
+    animation: slider 50s infinite linear;
+}
+
+.slide {
+    width: 50px;
+    display: inline-block;
+    width: 20%;
+    margin: 0px 2px;
+}
+
+@keyframes slider {
+    0%,
+    18% {
+        transform: translateX(0%);
+    }
+    20%,
+    38% {
+        transform: translateX(-20%);
+    }
+    40%,
+    58% {
+        transform: translateX(-40%);
+    }
+    60%,
+    78% {
+        transform: translateX(-60%);
+    }
+    80%,
+    100% {
+        transform: translateX(-80%);
+    }
+}
+
+.card{
+    /* width: 1006px; */
+    
+    max-height: 270px;
+    padding: 25px 15px;
+    display: inline-flex;
+}
+
+
+
+.Mainpanel{
+    width: 78vw;
+    overflow: hidden;
+    margin-bottom: 6px ;
+    background-color: white;
+    
+  
+}
+.slider{
+    margin: 5px auto;
+    /* width: 80vw; */
+}
+
+footer{
+    /* color: white; */
+    display: contents;
+    justify-content: center;   /* keep flex itemat center of container */
+}
+/* make box verticly and hori centre content */
+.flex-all-centre{      
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.dropbtn {
+    /* background-color: #04AA6D; */
+    /* color: white; */
+    padding: 16px;
+    /* font-size: 16px; */
+    /* border: none; */
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content li {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {color:#2874f0;}
+  
+.dropdown-content li:hover {color:#2874f0;}
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {color:#2874f0;}
+.footerDetails {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: lightblue;
+    background-color: #172337;
+    color: white;
+    padding: 25px;
+    margin-top: 5px;
+
+  }

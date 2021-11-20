@@ -1,0 +1,41 @@
+img{
+    position: absolute;
+    width: 20%;
+    bottom: 0px;
+    left: 45%;
+    animation-name: ami;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes ami {
+    0%{
+        top: 0px;
+        left: 45%;
+        background-color: red;
+    
+    }
+    25%{
+        bottom: 45%;
+        left: 0%;
+        transform: rotate(380deg);
+
+
+    }
+    50%{
+        bottom: 80%;
+        left: 45%;
+        background-color:green;
+
+    }
+    75%{
+        bottom: 100%;
+        left: 45%;
+        background-color: blue;
+    }
+    100%{
+        transform: rotate(380deg);
+        background-color:yellow;
+    }
+
+}

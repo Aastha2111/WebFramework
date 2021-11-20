@@ -1,0 +1,95 @@
+<!-- JSMJ -->
+<!-- 17-08-21 -->
+
+
+<!-- Create HTML doc to implement all form tags
+Create a HTML page to implement sementic elements along with audio and video
+HTML 5 ppt is as follows -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:rgba(250, 226, 230, 0.932) ;">
+    <header style=";">
+        <h1 style="padding-left: 20px;">welcome to lab exp 5</h1>
+        <nav style="height: 30px; width: 100%;padding: 4px; position: relative;position: sticky;top: 0%;">
+            <!-- <ul style="display: inline-flex;">
+                <li><a href="#home">Home</a></li>
+                 </ul> -->
+        </nav>
+        
+    </header>
+    <main style="display: inline-flex;">
+        <section>
+            <fieldset>
+                 <legend>let's fill the Form</legend>   
+                <form action="" autocomplete="" style="border: 2px solid black; height: 486px;">
+                <table>
+                    <tr> <td> <label for="name">Name</label> </td> <td><input type="text" placeholder="name"> </td>
+                    </tr>
+                    <tr><td><label for="pass">Password</label></td><td><input type="password"placeholder="password" ></td></tr>
+                    <tr><td><label for="email">Email-Id</label></td> <td><input type="email" autofocus></td></tr>
+                    <tr><td><label for="age">Age</label></td><td><input type="number" min="4" max="100" placeholder="age"></td></tr>
+                    <tr><td><label for="phno">Phone no.</label></td><td><input type="number" title="10 digit number allowed" pattern="[0-9]{10}"></td></tr>
+                    <tr><td><label for="country">Country</label></td><td><input type="text" placeholder="country"></td></tr>
+                    <tr><td><label for="color">Favourite Color</label></td><td><input type="color"></td></tr>
+                    <tr><td><label for="dob">Date of birth</label></td><td><input type="datetime-local"></td></tr>
+                    <tr><td><label for="range">range</label></td><td><input type="range" min="4" max="100"></td></tr>
+                    <tr><td><label for="comment">Commnets</label></td><td><textarea id="w3review" name="w3review" rows="4" cols="50">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae repudiandae omnis deleniti odio nisi obcaecati provident amet, velit explicabo laudantium aut autem cupiditate pariatur doloremque nobis officia rem porro totam.
+                        </textarea></td></tr>
+                    <tr><td><input type="submit"> </td><td><input type="reset"> </td></tr>
+
+                </table>
+            </form>
+        </fieldset>
+
+        </section>
+    
+        <section>
+            <!-- <video width="300px" height="240" controls>
+                <source src="https://www.youtube.com/watch?v=P1bDs7zFsYc" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>             -->
+              <iframe width="300px" height="200px"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            <aside>
+            <article style="border: 2px solid black; width:300px; float: right;">
+                <figure>
+                    <img src="https://s.yimg.com/aah/yhst-74880200159874/wild-winter-horse-canvas-wall-art-27.jpg" alt="horse" style="width:100%">
+                    <figcaption>Fig.1-horse</figcaption>
+                  </figure>
+                <audio controls autoplay>
+                    <source src="horse.ogg" type="audio/ogg">
+                    <source src="horse.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+            </article>
+        </aside>
+
+        </section>
+
+
+    </main>
+    <footer style="align-self: center;">
+        <div ></div><br>
+            <b>
+                Address: HUDA Sector 23-A Gurugram – 122017  |
+                Phone: + 91 124 2365811 / 12 / 13    |
+                Admissions Helpline: 8448495100     |
+                Email: ncu@ncuindia.edu    |
+                Locate Us | Contact Us </b>
+        </div><br>
+        <div><i><b>created by --- for WebFrame lab Assg 5</b></i></div>
+        </div>
+
+    </footer>
+</body>
+</html>

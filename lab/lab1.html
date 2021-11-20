@@ -1,0 +1,224 @@
+<!--JSMJ-->
+<!-- //SPECILA FEATURES : TABLE ,BORDER AND MARQUEE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab-1</title>
+    <!-- <style>
+        th,td {
+            padding: 15px;
+        }
+    </style> -->
+   
+</head>
+
+<body>
+    <header border="2px">
+        <!-- Top header menu containing
+         logo and Navigation bar -->
+        <!-- <div id="top-header"> -->
+
+            <!-- Logo
+            <div id="logo">
+                <img style="width: 90px;height: 90px;" src="ncu BLACK.png" />
+            </div> -->
+
+            <!-- Navigation Menu
+            <nav>
+                <ul style="display: inline-flex;">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Products</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav> -->
+        </div>
+
+        <!-- Image menu in Header to contain an Image and
+         a sample text over that image -->
+        <div id="header-image-menu">
+            <img src="backgrond1.JPG">
+            <h2 style="border: black; border-width:5px; border-style:solid;" align="centre">
+                LAB EXP1 THEME 1
+            </h2>
+        </div>
+    </header>
+    <!-- <table style="width:100%" border="2px"> -->
+        <table border="2px">
+        <tr>
+            <td colspan="3" style="text-align:left"><img src="ncu BLACK.png" alt="logo" height="60px"
+                    width="60px">
+                <h1 align='center'>THE NORTHCAP UNIVERSITY ,Gurugram Sector</h1>
+
+                <h2><marquee direction = "right" align='center'>ABOUT US  || POWERED BY ASU || OUR SCHOOLS ||  ADMISSIONS || CAMPUS LIFE ||  RESEARCH  ||  QUALITY BENCHMARK </marquee> </h2>
+            </td>
+        </tr>
+        <tr>
+            <th>Why NCU, GURUGRAM?</th>
+            <!--tabke heading-->
+            <th>Introduction</th>
+            <th>Our Schools</th>
+        </tr>
+        <tr>
+            <td>
+                <h3>FEATURES</h3>
+                <ul>
+                    <li>25 years of excellence</li>
+                    <li>Ranked as the best private University in Haryana</li>
+                    <li>15000+ students</li>
+                    <li>
+                        <dl>
+                            <dt>Programs Offered</dt> <!-- LIST TAG DESCRIPTION list,title ,description-->
+                            <dd> Engineering , Management & Law </dd>
+                        </dl>
+                    </li>
+                    <li>Context , project based Modular learning</li>
+                    <li>Tinkering lab and Thought lab - life time skills</li>
+                    <li>70% faculty with PhD's</li>
+                </ul>
+                <br>
+                <br>
+                <table bgcolor="lightblue">
+                    <tr><b>SEARCH YOUR COURSES </b></tr> <br>
+                    <tr>
+                        <input type="radio" id="" name="category"> UG
+                        <input type="radio" id="" name="category"> PG
+                    </tr><br>
+                    <tr>
+                        <div style="padding: 3px;">
+                                 <!-- <select name="STATE" id=""  style="border: none;border-bottom:2px solid black;background-color: lightblue;"> -->
+                                <select name="school" id=""  bgcolor="lightblue">
+                                <option value="">All Schools</option>
+                                <option value="">Schools of Managements</option>
+                                <OPTION>Centre Of language learning</OPTION>
+                                <OPTION>Department of Applied science</OPTION>
+                                <OPTION>School of Engineering </OPTION>
+                                <OPTION>School of Law</OPTION>
+                            </select> </div>
+                    </tr>
+                    <!-- sort according li -->
+                    <tr>
+                        <div style="padding: 3px;">
+                                <!-- <select name="STATE" id=""  style="border: none;border-bottom:2px solid black;background-color: lightblue;"> -->
+                                <select name="STATE" id=""  bgcolor="lightblue">  
+                                <option value="">Courses</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">53</option>
+                            </select>
+                        </div><br>
+                    </tr>
+                    <button type="submit" name="submit" class="submit-form submit_btn">Search</button>
+                </table>
+            </td>
+            <!--tabel description-->
+            <td>
+                <div>
+                    <h3><b>We Are THE NORTHCAP UNIVERSITY,GURUGRAM</b></h3>
+                    <p><i>
+
+                            NCU continues to be the leader amongst the private universities in Delhi and Haryana.
+                            In the NIRF ranking, conducted by Ministry of Human Resource Development (MHRD), Government
+                            of India for the year 2020, the result of which was released by the Hon’ble Minister Shri
+                            Ramesh Pokhriyal ‘Nishank’ on 11th June 2020. NCU is ranked 110 in the Engineering category
+                            and rank band of 151-200 in the University category in All India NIRF ranking survey 2020.
+                            Ranked 5 amongst the Cleanest Higher Educational Institutions in the Country in the
+                            University (Non Residential) Category.
+                            The NorthCap University, Gurugram is categorized as ‘Band A’ institution (rank between
+                            06-25) in category of ‘University & deemed to be University (Private-Self-Financed)’ in Atal
+                            Ranking of Institutions on Innovative Achievement (ARIIA)2020.
+                            The NorthCap University is recognized as Social Entrepreneurship, Swachhta & Rural
+                            Engagement Cell (SES REC) Institution, by the Department of Higher Education, Ministry of
+                            Education, Government of India
+                    </p></i>
+                </div>
+                <div>
+                    <form>
+                        <table bgcolor="lightblue">
+                            <tr>
+                                <td>
+                                    <h2>Subscribe to get latest updates</h2>
+                                    <p>The Northcap University</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Name<input type="text" placeholder="Name"></td>
+                            </tr>
+                            <tr>
+                                <td>Email<input type="text" placeholder="Email address"></td>
+                            </tr>
+                            <tr>
+                                <td>State<select name="STATE" id="">
+                                        <option value="choose state">New Delhi</option>
+                                        <option value="New Delhi">New Delhi</option>
+                                        <option value="Haryana">Haryana</option>
+                                        <option value="Rajasthan">Rajasthan</option>
+                                        <option value="Punjab">Punjab</option>
+                                        <option value="UttarPradesh">UttarPradesh</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><label>
+                                        SUGGESTIONS/QUERIES<textarea rows="4" cols="10"
+                                            placeholder="plz share your reviews">
+                              </textarea></label></td>
+                            </tr>
+
+                            <tr>
+                                <td> <input type="checkbox" checked="checked">Daily updates</td>
+                            </tr>
+                            <tr>
+                                <td> <button name="subject" type="submit" value="Subscribe Us">Subscribe Us</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </td>
+            <td>
+                <div  bgcolor="lightblue">
+                    <img src="pic1.JPG" alt="school of Engineering" width="210px" height="210px" align="center">
+                    <!-- <a href="https://www.ncuindia.edu/school/department-of-cse/" target="_blank" style="padding-left:20%;">EXPLORE ></a> -->
+                    <a href="https://www.ncuindia.edu/school/department-of-cse/" target="_blank" align="center">EXPLORE ></a> 
+                </div>
+                <!--src - Specifies the path to the image alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed-->
+                <div style="border: none;background-color: lightgrey;border-radius: 2px;" ><img src="pic2.JPG" alt="school of Management and Liberal Studies"  width="210px" height="210px" style="padding-left: 10px;padding-top: 5px;">
+                    <a href="https://www.ncuindia.edu/school/school-of-management/" target="_top"> EXPLORE ></a>
+                </div>
+                <div style="border: none;background-color: lightgrey;border-radius: 2px;" ><img src="pic3.JPG" alt="school of Law"  width="210px" height="210px" style="padding-left: 10px;padding-top: 5px;">
+                    <a href="https://www.ncuindia.edu/school/school-of-law/" target="_parent">EXPLORE ></a>
+                </div>
+            </td>
+        </tr>
+        <tfoot style="text-align:center">
+            <tr>
+                <td colspan="3">
+                    <!-- <div style="text-align: left"> <b>to learn more about NCU?</b> <br> -->
+                        <div align="left"> <b>To learn more about NCU?</b> <br>
+                        <i> Be a part of an interesting journey, a journey that will
+                            take you to the heights.</i>
+                    </div>
+                    <!-- <div style="text-align: center"><br> -->
+                        <div  align="center"><br>
+                        <b>
+                            Contact Us
+                            Address: HUDA Sector 23-A Gurugram – 122017
+                            Phone: + 91 124 2365811 / 12 / 13
+                            Admissions Helpline: 8448495100
+                            Email: ncu@ncuindia.edu
+                            Locate Us | Contact Us </b>
+                    </div><br>
+                    <div><i><b>created by --- for WebFrame lab Assg 1</b></i></div>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <footer style="text-align: center;">Some copyright &copy; 2021, My Websites  [AAStha-19csu003]</footer>
+</body>
+
+</html>
