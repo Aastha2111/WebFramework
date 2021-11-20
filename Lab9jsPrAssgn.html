@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<!-- 16-09-21 -->
+<head>
+    <meta charset="utf-8">
+    <title>js-practice-question</title>
+</head>
+
+<body>
+    <script>
+        // QUES:  Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.
+        // function Cylinder(h,d)
+        // {
+        //     this.h=h;
+        //     this.d=d;
+
+        // }
+        // Cylinder.prototype.vol=function(){
+        //     var r=this.d/2;
+        //     return this.h*Math.PI*r*r;
+
+        // };
+        // var cl=new Cylinder(7,4);
+        // console.log("volume=",cl.vol())
+
+        //  JAVA SCRIPT PRATCIE QUESTION
+        // QUES 1: Write a JavaScript function that reverse a number. 
+        // const num = 124323;
+        // const reverse = (num) => parseInt(String(num)
+        // .split("")
+        // .reverse()
+        // .join(""), 10); 
+        // console.log(num);
+        // console.log("reverse"+reverse(num));
+// =========
+        // var val = [];
+        // for (let i = 0; i < 5; i++) {
+        //     let n = Number(prompt('Enter a number: '+i+"="));
+        //     console.log(n); //print without sort
+        //     val.push(n)
+        // }
+
+        //  //sort string array
+        // val.sort();       // 1 , 12, 2 , 23 this  is how it sorts.
+        // val.reverse(); 
+
+        // //sort nmeric values
+        // val.sort(function(a, b){return a - b});   //Ascending
+        // points.sort(function(a, b){return b - a}); //Descending
+        // console.log("sorted elemnted");
+        // var i=val.values();
+        // for(var x of i){
+
+        //     console.log(x);
+        // }
+
+        // QUES 2::Write a JavaScript function that checks whether a passed string is palindrome or not? 
+        // var x="Aastha";
+        // console.log("given String= "+x)
+        // var splitWord = x.split("");               //return type array
+        // var reverseWord = splitWord.reverse();
+        // r = reverseWord.join("")
+        // console.log(r);
+        // if (r===x) {
+        //     console.log("PAlindrome");
+        // } else {
+        //     console.log(" not PAlindrome");
+        // }
+
+        // QUES3:3. Write a JavaScript function that generates all combinations of a string
+        // let PC =(str)=>{
+        //     console.log(str.length);
+
+        //     let result=[];
+        //     for(let i=0;i<str.length+1;i++)
+        //     {
+        //         for(let j=i+1;j<str.length+1;j++)
+        //         {
+        //             result.push(str.slice(i,j));
+        //         }
+        //     }
+        //     return result;
+        // }
+        // console.log("given String= Dog");
+        // console.log(PC('Dog'));
+
+        // QUES4:4. Write a JavaScript function that returns a passed string with letters in alphabetical order
+        // let AlphaOrdered=(str)=>{
+        //     var a=str.split("").sort().join();
+        //     return a;
+        // }
+        // console.log("aastha");
+        // console.log(AlphaOrdered("aastha"));
+
+
+        // QUES 5.5. Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case. 
+        // let capitalize=(result)=>{
+        //     var arr = [];
+        //     for (var x = 0; x < result.length; x++) {
+        //         arr.push(result[x].charAt(0).toUpperCase() + result[x].slice(1));
+        //     }
+        //     return arr;
+        // }
+        // let title = (str) => {
+        //     var result = str.split(" ");
+        //     return capitalize(result).join(' ');
+        //      }
+        //      var x="thw bworn dog"
+        // console.log("given String :"+ x)
+        // console.log(title(x));
+
+// QUES6 6. Write a JavaScript function that accepts a string as a parameter and find the longest word within the string
+        //   function findLongestWord(str) {
+        //     var longestWord = str.split(' ').sort(function (a, b) { return b.length - a.length; });
+        //     return longestWord[0];
+        // }
+        // console.log("The quick brown fox jumped over the lazy dog")
+        // console.log("logest word="+findLongestWord("The quick brown fox jumped over the lazy dog"));
+
+
+
+        // The indexOf() method returns the index within the calling String object of the first occurrence of the specified value, 
+        // starting the search at fromIndex. Returns -1 if the value is not found.
+        // Syntax -> str.indexOf(searchValue[, fromIndex])
+        // searchValue : A string representing the value to search for.
+        // fromIndex(Optional)-> The index at which to start the searching forwards in the string. It can be any integer.
+// QUES7. Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string. 
+        // function vowel_count(str)
+        // {
+        // var vowel_list = 'aeiouAEIOU';
+        // var count = 0;        
+        // for(var x = 0; x < str.length ; x++)
+        // { if (vowel_list.indexOf(str[x]) !== -1)
+        //     { count += 1; }        
+        // }
+        // return count;
+        // }
+        // console.log("")
+        // var x="The quick brown fox"
+        // console.log("vowel count of "+ x)
+        // console.log(vowel_count(x));
+
+
+// QUES8.  is prime or not
+        // function is_prime(n)
+        // {
+        //     if (n===1){ return false;}
+        //     else if(n === 2){return true;}
+        //     else
+        //     {
+        //         for(var x = 2; x < n; x++)
+        //         { if(n % x === 0)
+        //                 { return false; }
+        //         }
+        //         return true;  
+        //     }
+        // }
+        // console.log(is_prime(37));
+
+        // +++++++++++++++++++++++++++++++++++++++++++
+        // QUES9.
+        // var x = prompt("enter parameter:");
+        
+        // let val_type = (x) =>{
+        // console.log("you entered="+x)
+        //     console.log(typeof(x));
+        //    }
+        // val_type(x)
+
+
+// 10. Write a JavaScript function which returns the n rows by n columns identity matrix. 
+
+        // let identity_matrix=(n)=> {
+        // var i,j;
+        // for (i=0; i < n; i++)
+        // {
+        // for (j=0; j < n; j++)
+        // {
+        //     if (i === j)
+        //     {   console.log(" 1 ") ; }
+                    
+        //     else 
+        //         { console.log(' 0 ');}
+        //         }
+        //     console.log('----------');
+        // }
+        // }
+        // var n = prompt("enter matrix no. of column/row:");
+        // identity_matrix(parseInt(n));
+
+
+
+//         QUES11. Write a JavaScript function which will take an array of numbers stored and find the second lowest and second greatest numbers, respectively. 
+// Sample array : [1,2,3,4,5]
+// Expected Output : 2,4
+
+        // const findSecond = (arr) => {
+	// let sortedArr = arr.sort((a, b) => a - b);
+	// let secondLowest = sortedArr[1];
+	// let secondGreatest = sortedArr[sortedArr.length - 2];
+	// return `Second lowest: ${secondLowest}, Second greatest: ${secondGreatest}`;
+        //         };
+        // console.log(findSecond([1, 2, 3, 4, 5]));
+
+// QUES12. Write a JavaScript function which says whether a number is perfect. 
+// According to Wikipedia : In number theory, a perfect number is a positive integer that is equal to the sum of its proper positive divisors, that is, the sum of its positive divisors excluding the number itself (also known as its aliquot sum). Equivalently, a perfect number is a number that is half the sum of all of its positive divisors (including itself).
+
+        // const perfectNumberChk=(num) => {
+        //         let sum = 0;
+        //         for (let i = 1; i < num; i++) {
+        //                 if (num % i === 0) { sum += i;}
+        //         }
+        //         return sum === num;
+        // };
+        // console.log(perfectNumberChk(496));
+
+
+// QUES13. Write a JavaScript function to compute the factors of a positive integer
+
+        // const factors=(num)=>{
+        //         let factorslist=[];
+        //         for (let i = 1;i<=num; i++) {
+        //                 if (num % i === 0) {factors.push(i);}
+        //         }
+        //         return factors;
+        // };
+        // console.log(factors(12));
+
+
+// QUES14. Write a JavaScript function to convert an amount to coins. 
+// Sample function : amountTocoins(46, [25, 10, 5, 2, 1])
+// Here 46 is the amount. and 25, 10, 5, 2, 1 are coins.
+// Output : 25, 10, 10, 1
+// .
+
+        // const amountTocoins=(amount, coins)=>{
+        // 	let finalresult = [];
+        // 	let coin = 0;
+        // 	let count = 0;
+        // 	let sum = 0;
+        // 	for (let i = 0; i < coins.length; i++) {
+        // 		coin = coins[i];
+        // 		count = Math.floor(amount / coin);   //math.floor will not accept decimal value
+        // 		sum += count * coin;
+        // 		finalresult.push(count);
+        // 		amount = amount - count * coin;
+        // 	}
+        // 	if (sum < amount) {
+        // 		finalresult.push(1);
+        // 	}
+        // 	return finalresult;
+        // };
+        // console.log(amountTocoins(46, [25, 10, 5, 2, 1]));
+
+
+// QUES15. Write a JavaScript function to compute the value of bn where n is the exponent and b is the bases. Accept b and n from the user and display the result. 
+// .
+
+        // const calExpon = (b, n) => {
+        // 	return Math.pow(b, n);
+        // };
+        // console.log(calExpon(2, 4));
+  
+
+
+// QUES16. Write a JavaScript function to extract unique characters from a string. 
+// Example string : "thequickbrownfoxjumpsoverthelazydog"
+// Expected Output : "thequickbrownfxjmpsvlazydg"
+
+
+        // const uniqueCharacters=(str)=>{
+        //         let unique = "";
+        //         for (let i=0;i<str.length; i++) {
+        //                 if(unique.indexOf(str.charAt(i))==-1) { //chk existence of the character in 'unique' str
+        //                         unique += str[i];}}
+        //         return unique;
+        // }
+        // console.log(uniqueCharacters("thequickbrownfoxjumpsoverthelazydog"));
+
+// .
+
+
+// QUES17. Write a JavaScript function to  get the number of occurrences of each letter in specified string. 
+
+        const countOccurrences=(str)=>{
+                let result = {};   //object litera
+                for (let i = 0; i < str.length; i++) {
+                        if (result[str[i]]) {
+                                console.log(result[str[i]]);
+                                result[str[i]]++;
+                        } else {
+                                result[str[i]] = 1;
+                        }
+                }
+                return result;
+        };
+        console.log(countOccurrences("aabbbddddcccccccccccaaa"));
+
+
+    </script>
+</body>
+
+</html>

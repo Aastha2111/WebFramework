@@ -1,0 +1,36 @@
+<!-- JSMJ -->
+<!-- 31-09-21  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jsLab-css/Lab12Weather.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <h1 style="color: aliceblue; margin-top: 20px;margin-left: 100px;margin-bottom: 40px;">MY WEATHER APP</h1>
+    <div class="app-main">
+        <div class="searchInputBox" style="display: inline-flex;">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter city name..." autocomplete="off">
+            <img id="searchbtn" src="https://th.bing.com/th/id/OIP.zo0X5ktg5GwjXQRtSKMakQHaHa?pid=ImgDet&rs=1" style="height: 50px;width: 50px;"></img>
+        </div>
+
+        <div class="weather-body">
+            <div class="location-details">
+                <div class="city" id="city"></div>
+                <div class="date" id="date"></div>
+            </div>
+
+            <div class="weather-status">
+                <div class="temp" id="temp"></div>
+                <div class="min-max" id="min-max"></div>
+                <div class="weather" id="weather"></div>
+                <img id="weather_icon" src="https://www.freeiconspng.com/thumbs/cloud-icon/cloud-icon-8.png" alt="" style="height: 150px;width: 150px; padding: 20px;">
+            </div>
+        </div>
+    </div>
+
+    <script src="js-Labjs/Lab12Weather.js"></script>
+</body>
+</html>
